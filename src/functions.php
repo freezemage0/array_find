@@ -8,7 +8,7 @@ namespace Freezemage\ArrayUtils;
  *
  * @return mixed
  */
-function find(array $array, callable $constraint): mixed {
+function find(array $array, callable $constraint) {
     foreach ($array as $key => $value) {
         if ($constraint($value, $key) === true) {
             return $value;
