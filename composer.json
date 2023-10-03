@@ -1,0 +1,23 @@
+{
+    "name": "freezemage0/array_find",
+    "description": "Provides array_find function.",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Freezemage",
+            "email": "freezemage0@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    },
+    "require": {
+        "php": ">7.4"
+    }
+}
